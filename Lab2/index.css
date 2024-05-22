@@ -1,0 +1,144 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn-signin {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  /* Aside (Category) Styles */
+  aside {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  aside ul li {
+    cursor: pointer;
+    padding: 8px 0;
+  }
+  
+  aside ul li:hover {
+    background-color: #e6e6e6;
+  }
+  
+  /* Carousel Styles */
+  .carousel {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Product Styles */
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .product-card {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .product-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .btn-add-to-cart {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Features Styles */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .features div {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .features div:hover {
+    color: #4CAF50;
+  }
+  
+  .features i {
+    margin-right: 8px;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
