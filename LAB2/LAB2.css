@@ -1,0 +1,74 @@
+/* Universal styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: chocolate;
+}
+
+
+/* Responsive font size and visibility */
+.mobile,
+.tablet,
+.pc {
+    margin: auto;
+    font-size: 100px;
+    color: #FFF;
+    display: none;
+}
+
+/* Mobile: width < 740px */
+@media (max-width: 739px) {
+    .product-image {
+        width: 100px;
+        /* or any desired size */
+    }
+}
+
+/* Tablet: width >= 740px and width < 1024px */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .product-image {
+        width: 150px;
+        /* or any desired size */
+    }
+}
+
+/* PC: width >= 1024px */
+@media (min-width: 1024px) {
+    .product-image {
+        height: 200px;
+    }
+}
+
+/* Slide section adjustments for mobile: width < 576px */
+@media (max-width: 575.98px) {
+    .slide-section .dropdown {
+        display: block;
+        width: 10px;
+    }
+
+    .slide-section .list-group {
+
+        display: none;
+        width: 10px;
+    }
+}
+
+/* Slide section adjustments for small devices: width < 768px */
+@media (max-width: 767.98px) {
+    .slide-list {
+        display: none;
+    }
+}
+
+@media (max-width:767.98px) {
+    .promotion {
+        display: none;
+    }
+}
+
+
+    
